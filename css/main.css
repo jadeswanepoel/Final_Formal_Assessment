@@ -1,20 +1,16 @@
-html,body{
-    background-color: black;
-}
-
 nav{
     width: 100%;
     height: 80px;
-    background-color: transparent;
+    background-color: #2b2b2b;
     color: white;
-    padding-left: 30px;
-}
 
+}
 .nav-con{
     width: 80%;
     height: 50px;
     float: left;
     margin-top: 35px;
+    margin-left: 30px;
 }
 
 .nav-con ul{
@@ -26,136 +22,117 @@ nav{
     height: 26px;
     text-align: center;
     margin-right: 10px;
-    padding-left: 40px;
-}
+    padding-left: 50px;
+    color: white;
 
+}
 
 .logo{
     float: left;
     margin-left: 50px;
     margin-left: 30px;
     margin-top: 25px;
+    font-family: 'Delicious Handrawn', cursive;
+
 }
 
-.container-fluid{
-    width: 100%;
+.col-6{
+    width: 100%px;
+    height: 550px;
+    margin-left: -600px;
+    
+}
+
+
+
+.col-box1{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-left: -600px;
+    margin-top: 50px;
+    background-image: url(../assets/bora-bora.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.col-box2{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-left: -300px;
+    margin-top: -200px;
+    background-image: url(../assets/pyongyang.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.col-box3{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-left: -100px;
+    margin-top: 50px;
+    padding-top:100px;
+    background-image: url(../assets/paris.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.col-box4{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-left: -600px;
+    margin-top: 50px;
+    background-image: url(../assets/miami.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -200px;
 }
 
 form{
+    margin-left: 600px;
     width:500px;
-    background-color: #2b2b2b;
+    background-color: white;
     margin-top: 0 auto;
     height: 500px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
-    padding-top: 25px;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .input-elm{
     width: 100%;
     height: 45px;
-    border-radius: 25px;
+    border-radius: 5px;
     padding-left: 15px;
     margin-top: 15px;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: gray;
+    color: black
 }
 
 select, button{
     width: 100% !important;
-    
+    height: 45px;
+    background-color: gray;
+    color: black;
+    margin-top: 10px
 }
 
-.text2{
+button-submit{
+    background-color: #2b2b2b;
     color: white;
-    padding-top: 40px;
-    padding-left: 70px;
+    font-family: 'Delicious Handrawn', cursive;
 }
 
-
-
-.button-play{
-    background-color: turquoise;
-    width: 30%;
-    height: 50px;
-    border: 2px solid ;
-    border-radius: 25px;
+footer{
+    background-color: #2b2b2b;
     color: white;
-    float: right;
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
 }
 
-h3{
-    color: white;
-}
-
-.col-box1{
-    width: 500px;
-    height: 300px;
-    background-color: transparent;
-    color: white;
-    margin-left: 150px
-}
-
-.col-box2{
-    width:500px;
-    height: 175px;
-    background-color: lightgray;
-    margin-left: 150px;
-}
-.col-6{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.button1{
-    width: 255px;
-    height: 40px;
-    text-align: left;
-
-    border: 2px solid white;
-    border-radius: 25px;
-    background-color: black;
-    float: right;
-    margin-top: -20px;
-    margin-left: 280px;
-    margin-right: -80px;
-    padding-left: 10px;
-    color: white;
-}
-
-.button-normal{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    float: left;
-    margin-left: 10px;
-    margin-top: 30px;
-}
-.button-normal:hover{
-    background-color: white;
-}
-
-.button-normal1{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    float: right;
-    margin-right: 200px;
-    margin-top: 30px;
-}
-.button-normal1:hover{
-    background-color: white;
-}
-
-li{
-    color: white;
-}
-
-.col-6{
-    margin-top: 50px;
-}
 
